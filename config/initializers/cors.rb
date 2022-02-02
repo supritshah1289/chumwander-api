@@ -7,7 +7,7 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins 'http://localhost:3006'
+    origins 'https://cryptic-forest-81175.herokuapp.com'
 
     resource '*',
       headers: :any,
